@@ -12,5 +12,5 @@ def inputUser(msg):
             validado = True
     return s
 
-usuario = inputUser('Ingrese un nombre de usuario válido (debe contener como mínimo 8 caracteres, una letra, un dígito y al menos uno de estos caracteres especiales:  #, $, %,&): ')
+usuario = inputUser('Ingrese un nombre de usuario válido (debe contener una letra, un dígito y al menos uno de estos caracteres especiales:  #, $, %,&)')
 print(usuario)
