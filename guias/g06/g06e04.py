@@ -19,7 +19,7 @@ def inputStr(msg, mini=0, maxi=10**38):
 
 if __name__ == '__main__':
     password0 = inputStr('Password', 5, 8)
-    password1 = inputStr('Password', 4)
-    password2 = inputStr('Password', maxi=5)
-    password3 = inputStr('Password')
+    algo = inputStr('Ingrese algo', 4)
+    usuario = inputStr('Nombre de usuario', maxi=5)
+    password1 = inputStr('Password')
 
