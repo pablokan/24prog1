@@ -1,7 +1,7 @@
 class Liga:
     def __init__(self) -> None:
         self.river = Equipo('River', ['Acuña', 'Meza'])
-        self.boca = Equipo('Boca', [])
+        self.boca = Equipo('Boca', ['Cavani'])
 
 class Equipo:
     def __init__(self, nombre, jugadores) -> None:
@@ -13,4 +13,5 @@ class Jugador:
         self.nombre = nombre
 
 liga = Liga()
-print(liga.river.jugadores[0].nombre)
+print(liga.river.jugadores[1].nombre)
+print(liga.boca.jugadores[0].nombre)
