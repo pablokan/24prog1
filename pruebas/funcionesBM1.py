@@ -1,5 +1,5 @@
 def foo(): # función definida por el programador
-    print('hola, soy la función foo')
+    print('hello, I am foo')
 
 def bar():
     return 'soy la frase retornada por la función bar' # devuelve la string
